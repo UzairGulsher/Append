@@ -1,0 +1,427 @@
+@import url('/Assets/poppins/poppins.css');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color:aliceblue; */
+    /* font-family: '  ', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nodec {
+    text-decoration: none;
+}
+
+nav a:hover {
+    /* text-decoration: underline; */
+    color: grey !important;
+    /* color: red !important; */
+}
+
+li.nav-item a:hover {
+    color: RGB(220, 53, 69) !important;
+}
+
+.clr-1 {
+    background-color: rgb(246, 74, 74);
+    color: white;
+}
+
+div.col-2 button:hover {
+    opacity: 0.5;
+    color: white !important;
+}
+
+.herosection-bgimg {
+    background: url(../images/hero-bg.jpg);
+    height: 100vh;
+    width: 100%;
+    filter:brightness(0.7);
+    background-size: cover;
+}
+
+.overlay {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* opacity: 0.2; */
+}
+.filter-none{
+    filter: none;
+}
+.overlay::before {
+    /* content: ""; */
+    position: absolute;  
+    top: 0;
+    left: 0;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    pointer-events: none;
+}
+
+.font-mont {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    /* position: relative; */
+    --color-default: #ffffff;
+    --color-default-rgb: 255, 255, 255;
+    --color-background: #000000;
+    --color-background-rgb: 0, 0, 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+/* CSS for placing the button inside the input field */
+.input-group {
+    position: relative;
+    display: flex;
+}
+
+.input-group .btn {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    z-index: 2;
+}
+
+.client-logo {
+    filter: grayscale(100%);
+}
+
+a img:hover {
+    filter: grayscale(0%);
+    /* opacity: 0.2; */
+}
+
+.t-style1 {
+    color: #ffffff;
+}
+
+.p-holder::placeholder {
+    color: rgb(117, 113, 113);
+    size: 5px !important;
+    align-items: start !important;
+    display: flex;
+
+}
+
+/* Custom style for the input field */
+.custom-input {
+    padding-left: 40px;
+    /* Adjust the padding to create space for the placeholder text */
+}
+
+/* Custom style for the placeholder text */
+.custom-input::placeholder {
+    font-size: 12px;
+    /* Adjust the font size for the placeholder */
+}
+
+/* Custom style for the button inside the input */
+.input-group-prepend {
+    position: absolute;
+    right: 0;
+}
+
+/* Adjust the width of the button */
+.btn-bob {
+    width: 80px;
+    /* margin: 0px 0px 0px 0px ; */
+    /* padding: 0px 0px 0px 0px; */
+}
+
+.margi {
+    margin: 0px 0px 0px 0px;
+}
+
+/* Custom style to remove the border */
+.no-border {
+    border: none !important;
+    /* box-shadow: none; */
+}
+
+.custom-input {
+    width: 400px !important;
+    height: 54px !important;
+}
+
+.custom-round {
+    border-radius: 13px;
+}
+
+.custom-color {
+    background-color: rgb(197, 197, 197);
+}
+
+/* .dark{
+    filter:brightness(80%);
+} */
+.bg-custom1 {
+    background: linear-gradient(45deg, rgba(255, 150, 150, 0.7), rgba(255, 150, 150, 0.7)),
+        linear-gradient(#FF9999, #FF9999);
+    /* Less intense reddish color with 70% opacity and light red border */
+    background-clip: padding-box, border-box;
+    border: 1px solid #FF9999;
+    /* Light red border */
+    border-radius: 5px;
+    line-height: 19px;
+    padding: 8px 7px 8px 8px;
+    /* font-weight: 500; */
+    /* font-size: 16px; */
+    display: inline-block;
+}
+
+.color-custom2 {
+    color: rgb(249, 41, 41);
+}
+
+.bg-custom3 {
+    background-color: white;
+}
+
+.icon-box {
+    padding: 50px 40px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease-out 0s;
+    background-color: var(--color-box-background);
+}
+
+.custom-margin1 {
+    margin: -9px 0px 0px -51px;
+}
+
+.custom-margin2 {
+    margin: -25px 0px 0px -51px;
+}
+
+.custom-card-height {
+    height: 400px;
+}
+
+.bgimg-sec3 {
+    background-image: url(../images/stats-bg.jpg);
+    background-size: cover;
+}
+
+.bg-custom4 {
+    background-color: rgb(215, 126, 126);
+}
+
+.round-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(255, 248, 248);
+    padding: 18px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    /* display: flex; */
+}
+
+
+.custom-round:hover .round-img {
+    background-color: rgb(255, 0, 0);
+}
+
+div i:hover div.card {
+    color: white !important;
+
+}
+
+.customh2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    color: white !important;
+    transform: scale(1.2) !important;
+    /* Increase by 20% */
+}
+
+.customh3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    color: rgb(44, 44, 44) !important;
+    transform: scale(1.2) !important;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+}
+
+.red-line {
+    flex: 1;
+    height: 2px;
+    /* Adjust the thickness of the line */
+    background-color: red;
+}
+
+.text {
+    margin: 0px 10px 0px 0px !important;
+    /* Adjust spacing as needed */
+}
+
+/* body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+} */
+
+.container-b1 {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 8%;
+    height: 2px;
+    background-color: red;
+    margin: 0 10px;
+}
+
+h2 {
+    margin: 0 20px;
+}
+
+.custom-p1 {
+    font-size: 18px;
+    word-spacing: 5px;
+}
+
+.line2 {
+    width: 5%;
+    height: 2px;
+    background-color: red;
+    margin: 0 10px;
+}
+
+.line3 {
+    width: 80%;
+    height: 2px;
+    background-color: #a6a6a6;
+    margin: 0 10px;
+}
+
+.custom-margin3 {
+    margin: 0px 0px 0px 0px;
+
+}
+
+.customh4 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    color: rgb(44, 44, 44) !important;
+    transform: scale(1.0) !important;
+    font-weight: bold;
+}
+
+.imgstack-front {
+    width: 427.333px;
+    height: 302.733px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    border: 5px solid white;
+
+}
+
+.imgstack-back {
+    border: 5px solid white;
+    width: 427.333px;
+    height: 302.733px;
+    position: absolute;
+    top: 90px;
+    left: -80px;
+    right: 1px;
+    bottom: 1px;
+}
+
+.custom-margin4 {
+    margin: 70px 0px 0px 0px;
+}
+
+.custom-img2 {
+    width: 427.333px;
+    height: 302.733px;
+    /* position: relative; */
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    border: 5px solid white;
+}
+
+.custom-image2 {
+    width: 350px;
+    /* height:auto; */
+}
+
+.custom-margin5 {
+    /* margin: 0px 0px 0px 180px  !important; */
+}
+
+.custom-card2 {
+    width: 400px;
+    /* border: 3px solid red; */
+    border-radius: 20px;
+    height: 650px;
+
+}
+
+.custom-card3 {
+    width: 400px;
+    height: 650px;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+
+.center-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: ; Adjust as needed */
+}
+
+.round-img2 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(200, 47, 47);
+}
+.bg-custom-3{
+background-color: #d2cfcf;
+}
+.customh5{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    color: rgb(44, 44, 44) !important;
+    transform: scale(1.4) !important;
+    font-weight: 400;
+}
+.img-round{
+    border: 4px solid white;
+    border-radius: 50%;
+    /* display: flex; */
+    /* justify-content: center ; */
+}
+.dud{
+    display: flex;
+    justify-content: center;
+}
+/* .text-size3{
+    size: 5;
+} */
